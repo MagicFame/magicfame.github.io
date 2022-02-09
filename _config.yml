@@ -18,21 +18,43 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Mon incroyable aventure dans le monde de l'informatique
+email: jeremie.uzan@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  J'ai toujours souhaité partager mon expérience et garder une trace
+  de ce que j'ai pu apprendre et réaliser.
+  Le monde de l'informatique n'a jamais cessé de m'étonner.
+  Ma passion est né ce jour où j'ai découvert qu'il était possible de 
+  créer ce qui me passait par la tête.
+  J'espère à travers ces écris partager ma vision de l'écosystème
+  et faire découvrir l'évolution de cette passion dans ma vie.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://mademistakes.com" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  magicfame
+locale: "fr"
+name: "Jérémie Uzan"
 
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
+#  - minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
