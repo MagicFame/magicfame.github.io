@@ -29,7 +29,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   J'espère à travers ces écris partager ma vision de l'écosystème
   et faire découvrir l'évolution de cette passion dans ma vie.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mademistakes.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://magicfame.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  magicfame
 locale: "fr"
 name: "Jérémie Uzan"
