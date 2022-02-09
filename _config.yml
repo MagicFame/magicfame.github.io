@@ -37,7 +37,14 @@ name: "Jérémie Uzan"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
-#  - minimal-mistakes-jekyll
+  - minimal-mistakes-jekyll
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  
 minimal_mistakes_skin: "default"
 
 defaults:
