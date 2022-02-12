@@ -2,6 +2,9 @@
 title:  "Ma première fois"
 date:   2022-02-08 23:26:24 +0100
 categories: experience
+header:
+  image: /assets/images/posts/unsplash-image1.jpg
+
 ---
 Ca y est, j'ai créé mon blog ! Ce sont les premières lignes que je décide d'écrire afin de raconter mes différentes
 expériences (positives comme négatives) ainsi que les découvertes techniques que je réalise dans le domaine de l'IT.

@@ -32,6 +32,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://magicfame.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 locale: "fr"
 name: "Jérémie Uzan"
+repository: "magicfame/magicfame.github.io"
+# Images
+teaser: /assets/images/default-teaser.png
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -46,6 +49,7 @@ plugins:
   - jekyll-include-cache
   
 minimal_mistakes_skin: "default"
+date_format: "%d/%m/%Y"
 
 defaults:
   # _posts
@@ -56,9 +60,12 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
+      show_date: true
+      author: Jeremie Uzan
+
 
 
 
