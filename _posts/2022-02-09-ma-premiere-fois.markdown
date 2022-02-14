@@ -39,3 +39,9 @@ de confiance avec qui j'ai pu collaborer pour avancer efficacement sur les diff�
 
 Si je revenais un an et demi en arrière, je choisirai sans réflechir de nouveau cette entreprise.
 
+======
+
+Je vous remercie d'avoir pris le temps de lire ce premier article.
+Je publierai assez régulièrement des nouveaux articles.
+
+Jérémie.
